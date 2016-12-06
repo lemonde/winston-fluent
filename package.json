@@ -12,8 +12,12 @@
   "dependencies": {
     "fluent-logger": "^2.2.0"
   },
+  "devDependencies": {
+    "vows": "^0.8.1",
+    "winston": "^2.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vows test/*-test.js --spec"
   },
   "repository": {
     "type": "git",
