@@ -1,0 +1,33 @@
+{
+  "name": "winston-fluent",
+  "version": "1.0.0",
+  "description": "Fluent transport for winston",
+  "main": "./lib/winston-fluent.js",
+  "engines": {
+    "node": "6.1.0"
+  },
+  "peerDependencies": {
+    "winston": ">=2.0.0"
+  },
+  "dependencies": {
+    "fluent-logger": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonde/winston-fluent.git"
+  },
+  "keywords": [
+    "fluent",
+    "logger",
+    "winston"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemonde/winston-fluent/issues"
+  },
+  "homepage": "https://github.com/lemonde/winston-fluent#readme"
+}
