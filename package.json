@@ -13,7 +13,7 @@
     "fluent-logger": "^2.2.0"
   },
   "devDependencies": {
-    "vows": "^0.8.1",
+    "vows": "^0.7.0",
     "winston": "^2.3.0"
   },
   "scripts": {
