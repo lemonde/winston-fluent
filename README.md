@@ -22,9 +22,10 @@ winston.add(winstonFluent, options);
 
 + `tag`: Required. This is the first part of the Fluentd tag.
 + `label`: Required. This is the second part of the Fluentd tag.
-+ `host`: Optional (default=localhost). The host for Fluentd.
-+ `port`: Optional (default=24224). The port for Fluentd.
-+ `timeout`: optional (default=3.0). Socket timeout for the TCP connection to Fluentd.
++ `options.level`: Optional (default=info). Log level of the logger.
++ `options.host`: Optional (default=localhost). The host for Fluentd.
++ `options.port`: Optional (default=24224). The port for Fluentd.
++ `options.timeout`: optional (default=3.0). Socket timeout for the TCP connection to Fluentd.
 
 ## License
 
