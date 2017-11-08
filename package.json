@@ -4,7 +4,7 @@
   "description": "Fluent transport for winston",
   "main": "./lib/winston-fluent.js",
   "engines": {
-    "node": "6.x"
+    "node": ">=6 <=8"
   },
   "peerDependencies": {
     "winston": ">=2.0.0"
