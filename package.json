@@ -1,10 +1,10 @@
 {
   "name": "winston-fluent",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Fluent transport for winston",
   "main": "./lib/winston-fluent.js",
   "engines": {
-    "node": ">=6 <=8"
+    "node": ">=6"
   },
   "peerDependencies": {
     "winston": ">=2.0.0"
